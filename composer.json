@@ -1,0 +1,26 @@
+{
+    "name": "sagardash/php-server",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sagar",
+            "email": "sagar.dash290@gmail.com"
+        }
+    ],
+    "require": {
+        "google/protobuf": "^3.21",
+        "grpc/grpc": "^1.42",
+        "spiral/roadrunner-grpc": "*",
+        "spiral/roadrunner-cli": "^2.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/stanley-cheung/Protobuf-PHP"
+        }
+    ]
+}
