@@ -16,11 +16,5 @@
         "grpc/grpc": "^1.42",
         "spiral/roadrunner-grpc": "*",
         "spiral/roadrunner-cli": "^2.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/stanley-cheung/Protobuf-PHP"
-        }
-    ]
+    }
 }
