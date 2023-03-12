@@ -9,7 +9,8 @@ RUN apk update  && \
     apk add \
         libpng-dev \
         libxml2-dev \
-        libmcrypt-dev
+        libmcrypt-dev \
+        --no-cache make protobuf-dev
 
 RUN docker-php-ext-install sockets && \
     docker-php-ext-enable sockets
