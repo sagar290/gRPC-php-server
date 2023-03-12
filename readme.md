@@ -27,6 +27,6 @@ Please specify a program using absolute path or make sure the program is availab
 --php-grpc_out: protoc-gen-php-grpc: Plugin failed with status code 1.
 "
 
-This happened because of several reasons. Either in your root path, there is no protoc-gen-php-grpc file available. If this is not available, download the file from this https://github.com/roadrunner-server/roadrunner/releases/tag/v2.12.3 Or the protoc-gen-php-grpc file which is available in your directory is not the correct version based on your operating system.
-As I am using a Macbook M1 version, I have to use protoc-gen-php-grpc-linux-arm64 file because I am using Docker for this example. I downloaded this zip file first, Extract and copy the protoc-gen-php-grpc to my root directory.
+This happened because of several reasons. Either in your root path, there is no `protoc-gen-php-grpc` file available. If this is not available, download the file from this https://github.com/roadrunner-server/roadrunner/releases/tag/v2.12.3 Or the protoc-gen-php-grpc file which is available in your directory is not the correct version based on your operating system.
+As I am using a Macbook M1 version, I have to use `protoc-gen-php-grpc-linux-arm64` file because I am using Docker for this example. I downloaded this zip file first, Extract and copy the `protoc-gen-php-grpc` to my root directory.
 
