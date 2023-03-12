@@ -6,7 +6,7 @@ server:
   relay_timeout: "20s"
 
 grpc:
-  listen: "tcp://127.0.0.1:8000"
+  listen: "tcp://0.0.0.0:8000"
   proto:
     - "chat.proto"
   max_send_msg_size: 50
