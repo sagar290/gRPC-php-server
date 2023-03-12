@@ -20,8 +20,7 @@ Start the server.
     protoc --plugin=protoc-gen-php-grpc  --php_out=./src/ --php-grpc_out=./src/ chat.proto
 ```
 Note:
-If you faced this error after running above command
-
+If you ever faced this error after running the above command.
 > "
 protoc-gen-php-grpc: program not found or is not executable
 Please specify a program using absolute path or make sure the program is available in your PATH system variable
